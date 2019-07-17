@@ -5,6 +5,8 @@ namespace ListaAcrescerSalarioFuncionario {
     class Program {
         static void Main ( string [ ] args ) {
 
+            //Programa com intuito de treinar como é o funcionamento de LISTAS em C#
+            //É Criada uma lista de funcionarios, depois é escolhido um funcionario para aumento do salário!
             Console.WriteLine ( "------------------------------" );
             Console.Write ( "How many employees will be registered?" );
             int qtd = int.Parse ( Console.ReadLine ( ) );
